@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.contact-content{
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+  }
+  .contact-content .contact-title h4{
+    font-size: 40px;
+    text-transform: capitalize;
+    background-image: linear-gradient( #ff0000, #ffff00); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+   
+    padding-bottom: 10px;
+  }
+  .contact-content .contact-title p{
+    padding-bottom: 20px;
+   
+    
+  }
+  .contact{
+    max-width: 700px;
+    margin: auto;
+  }
+  .contact input,.contact textarea{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    margin-bottom: 10px;
+  }
+  .contact input:nth-of-type(4){
+    width: 50%;
+  }
+  .contact .submit{
+    font-size: 30px;
+    text-transform: capitalize;
+    background-image: linear-gradient( #ff0000, #ffff00); /* Adjust colors as needed */
+
+    
+  }
+  .contact .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  #msg{
+    color: #fff;
+    font-size: 20px;
+    margin-top: -8px;
+    display: block;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mail.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Contact Me</title>
+</head>
+<body>
+
+<section class="contact-content" id="contact">
+  <div class="container">
+    <div class="contact-title">
+      <h4>Contact Me</h4>
+      <p>Get In Touch</p>
+    </div>
+    <div class="contact">
+      <form name="submitToGoogleSheet" id="contactForm">
+        <input type="text" name="NAME" placeholder="Name" required>
+        <input type="email" name="EMAIL" placeholder="Email" required>
+        <input type="text" name="SUBJECT" placeholder="Subject">
+        <textarea name="MESSAGE" placeholder="Message"></textarea>
+        <input type="submit" value="Send Message" class="submit">
+      </form>
+      <span id="msg"></span>
+    </div>
+  </div>
+</section>
+<script src="mail.php"></script>
+<script src="mail.js"></script>
+<script src="./js/scrollreveal.min.js"></script>
+</body>
+</html>
